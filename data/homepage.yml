@@ -19,7 +19,7 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: "https://radity.com/en/contact/"
+    URL: "https://liamwh.com/#contact"
 
   socialLinks:
     - icon: "linkedin"
