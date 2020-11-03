@@ -60,9 +60,12 @@ education:
   enable: true
   title: "Education"
   items:
-    - title: "VMware Certified Professional - Data Center Virtualization 2020 (VCP-DCV 2020)"
-      year: "2020"
-      degree: "VMware Learning"
+    # - title: "Microsoft Azure Administrator Associate"
+    #   year: "2020"
+    #   degree: "Microsoft Learn"
+    # - title: "VMware Certified Professional - Data Center Virtualization 2020 (VCP-DCV 2020)"
+    #   year: "2020"
+    #   degree: "VMware Learning"
     - title: "Professional Scrum Master I (PSM 1)"
       year: "2020"
       degree: "Scrum.org"
