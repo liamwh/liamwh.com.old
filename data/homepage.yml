@@ -1,0 +1,245 @@
+# homepage
+homepage:
+  head:
+    title: "Home | LiamWH.com"
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Liam."
+  subtitle: "DevOps Engineer"
+  description: "I work at <a target='_blank' href='https://ing.com/'>ING</a>, a global company disrupting the financial services industry by embracing and harnessing technology. And I am a Liam, a DevOps Engineer passionate about designing and developing streamlined, highly-automated solutions."
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https://radity.com/en/contact/"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/liamwoodleighhardinge/"
+
+    - icon: "github"
+      URL: "https://github.com/liamwh"
+
+    # - icon: "twitter"
+    #   URL: "https://twitter.com/LiamWoodleigh"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    I am passionate nerd for all things technology, particularly intrigued by the infinite potential
+    of code and automation.
+    When not behind my computer,
+    you&#39;ll find me playing squash, climbing rocks, or cycling on a bike. I like to move!
+    </p>
+    <p class="lead">
+    Professionally, my areas of focus include design, automation and way-of-working.
+    I have a sharp eye for improvement opportunities and original ways to create value.
+    I enjoy designing and coding as much as
+    talking with users to iterate and improve the experiences that reach business goals.
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/liamwoodleighhardinge/"
+  image:
+    x: "img/who-am-i/user-picture.png"
+    _2x: "img/who-am-i/user-picture@2x.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - title: "VMware Certified Professional - Data Center Virtualization 2020 (VCP-DCV 2020)"
+      year: "2020"
+      degree: "VMware Learning"
+    - title: "Professional Scrum Master I (PSM 1)"
+      year: "2020"
+      degree: "Scrum.org"
+    - title: "VMware vSphere 6.7 Foundations"
+      year: "2020"
+      degree: "VMware Learning"
+    - title: "AWS Certified Solutions Architect - Associate"
+      year: "2019"
+      degree: "AWS Training and Certification"
+    - title: "Diploma of Information Technology Networking"
+      year: "2018"
+      degree: "TasTAFE - Tertiary Education"
+    - title: "Certified Network Associate Technology Specialist Skill Set"
+      year: "2017"
+      degree: "TasTAFE - Tertiary Education"
+    - title: "Certificates II, III & IV in Information Technology"
+      year: "2015-2017"
+      degree: "TasTAFE - Tertiary Education"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: >
+    Over 5 years of diverse experience working with multiple industries in IT.
+    I design and automate to deliver products that help business and improve people's lives.
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/liamwoodleighhardinge/"
+  # button2:
+  #   icon: "icon-profile-fill"
+  #   btnText: "Download My Resume"
+  #   URL: "#"
+
+  items:
+    - title: "Cloud DevOps Engineer"
+      company: "ING"
+      duration: "2019 - Present"
+
+    - title: "IT Consultant & Technician"
+      company: "Self-Employed"
+      duration: "2016 - 2019"
+
+    - title: "IT Technician"
+      company: "Sacred Heart College"
+      duration: "2015 - 2019"
+
+award:
+  enable: true
+  title: "Awards"
+  items:
+    - title: "Australian Bronze Medal"
+      year: "2018"
+      degree: |
+        WorldSkills National (Australia-wide) Competition:
+        IT Networking / Systems Administration Category - WorldSkills Australia
+
+    - title: "TasTAFE Special Achievement Award"
+      year: "2018"
+      degree: "TasTAFE Awards - Awarded for completing 4 years of study in 2 years whilst working full-time and running my own IT consultancy business."
+
+    - title: "Tasmanian Gold Medal"
+      year: "2017"
+      degree: |
+        WorldSkills Regional (Tasmania-wide) Competition:
+        IT Networking / Systems Administration Category - WorldSkills Australia
+
+    - title: "Tasmanian Trainee of the Year - Finalist"
+      year: "2017"
+      degree: "Skills Tasmania"
+
+# Client & Work
+client_and_work:
+  title: "Clients & Works"
+  enable: false
+
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Radity Finance - UI Kit"
+      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/radity-finance.jpg"
+        _2x: "img/works/radity-finance@2x.jpg"
+      is_even: true
+
+    - title: "Swiss Fintech Website"
+      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/swissfintech.jpg"
+        _2x: "img/works/swissfintech@2x.jpg"
+      is_even: false
+
+    - title: "Robo Advisor"
+      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/robo-advisor.jpg"
+        _2x: "img/works/robo-advisor@2x.jpg"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+    - name: "Sam Murray"
+      position: "ICT Manager, Sacred Heart College"
+      content: >
+        "Liam is a true team player and manages to foster positive outcomes
+        within the organisation regardless of the situation.
+        One example is the manner in which he has promoted best practices to other team members which has
+        resulted in rapid growth of knowledge within the entire team."
+      image:
+        x: "img/testimonials/sam-murray.jpg"
+        _2x: "img/testimonials/sam-murray@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+31 640 33 88 95"
+  email:
+    title: "Email"
+    email: '<a href="mailto:liam@liamwh.com">liam@liamwh.com</a>'
+  address:
+    title: "Address"
+    address: "The Randstad,<br />The Netherlands"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
