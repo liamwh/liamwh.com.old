@@ -4,13 +4,19 @@
 
 <head>
 
-    {{ partial "head.html" . }}
+	{{ partial "head.html" . }}
 
-    {{ partial "head_custom.html" . }}
+	{{ partial "head_custom.html" . }}
 
 </head>
 
 <body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript>
+		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2F9DP5" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe>
+	</noscript>
+	<!-- End Google Tag Manager (noscript) -->
 
 	{{ partial "header.html" . }}
 
@@ -19,7 +25,7 @@
 	{{ end }}
 
 	{{ partial "footer.html" . }}
-    {{ partial "base-foot.html" . }}
+	{{ partial "base-foot.html" . }}
 </body>
 
 </html>
