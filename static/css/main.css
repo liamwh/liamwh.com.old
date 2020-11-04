@@ -704,6 +704,10 @@ textarea {
     line-height: inherit
 }
 
+.hidden {
+    display: none;
+}
+
 button,
 input {
     overflow: visible

@@ -6,7 +6,7 @@
             <div class="row pt-2">
                 <div class="col-12 col-lg-7">
                     <form name="contact" data-netlify="true" action="{{ .Site.Data.homepage.contact.form.action }}"
-                        method="{{ .Site.Data.homepage.contact.form.method }}">
+                        method="{{ .Site.Data.homepage.contact.form.method }}" netlify-honeypot="position">
                         <div class="row">
                             <div class="col-12 col-sm-6">
                                 <input type="text" name="full_name" id="full_name"
@@ -15,6 +15,9 @@
                             <div class="col-12 col-sm-6">
                                 <input type="email" name="email" id="email"
                                     placeholder="{{ .Site.Data.homepage.contact.form.email }}" />
+                            </div>
+                            <div class="hidden">
+                                <input type="text" name="position" id="honey" />
                             </div>
                         </div>
                         <div class="row pt-4">
