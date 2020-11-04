@@ -7,10 +7,9 @@ showcase:
   enable: true
   title: "Hello, I’m Liam."
   subtitle: "DevOps Engineer"
-  description: >
-    I work at <a target='_blank' href='https://ing.com/'>ING</a>,
-    a global bank disrupting the financial services industry by embracing and harnessing technology.
-    I am Liam, a DevOps Engineer passionate about designing and developing streamlined, highly-automated solutions. More on me below.
+  description: |
+    I work at <a target='_blank' href='https://ing.com/'>ING</a>, a global bank disrupting the financial services industry by embracing and harnessing technology.
+    And I am Liam, a DevOps Engineer passionate about designing and developing streamlined, highly-optimised solutions. More on me below.
   image:
     alt: "Showcase keyboard and mouse image"
     x: "img/showcase/showcase.png"
@@ -25,14 +24,14 @@ showcase:
     URL: "https://liamwh.com/#contact"
 
   socialLinks:
-    - icon: "linkedin"
-      URL: "https://www.linkedin.com/in/liamwoodleighhardinge/"
-
     - icon: "github"
       URL: "https://github.com/liamwh"
 
-    # - icon: "twitter"
-    #   URL: "https://twitter.com/LiamWoodleigh"
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/liamwoodleighhardinge/"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/LiamWoodleigh"
 
 # about
 about:
@@ -67,27 +66,35 @@ education:
     # - title: "Microsoft Azure Administrator Associate"
     #   year: "2020"
     #   degree: "Microsoft Learn"
+    #   url:
     # - title: "VMware Certified Professional - Data Center Virtualization 2020 (VCP-DCV 2020)"
     #   year: "2020"
     #   degree: "VMware Learning"
-    - title: "Professional Scrum Master I (PSM 1)"
+    #   url:
+    - title: "Professional Scrum Master I"
       year: "2020"
       degree: "Scrum.org"
+      url: https://www.scrum.org/certificates/584843
     - title: "VMware vSphere 6.7 Foundations"
       year: "2020"
       degree: "VMware Learning"
+      url: https://www.youracclaim.com/badges/d268ed7c-bd20-47b6-a290-8aa796a180d7/linked_in_profile
     - title: "AWS Certified Solutions Architect - Associate"
       year: "2019"
       degree: "AWS Training and Certification"
+      url: https://www.youracclaim.com/badges/a227f8c9-af74-47e7-b2a4-59d9350bc253/public_url
     - title: "Diploma of Information Technology Networking"
       year: "2018"
       degree: "TasTAFE - Tertiary Education"
+      url: https://drive.google.com/file/d/1FBMSNZrI6yxD9MZA4Sj8HtchA-b7w1WY/view?usp=sharing
     - title: "Certified Network Associate Technology Specialist Skill Set"
       year: "2017"
       degree: "TasTAFE - Tertiary Education"
+      url: https://drive.google.com/file/d/1vi40xergl9AxiDGI5NJg138zGVZ4a-FJ/view?usp=sharing
     - title: "Certificates II, III & IV in Information Technology"
       year: "2015-2017"
       degree: "TasTAFE - Tertiary Education"
+      url: https://drive.google.com/file/d/0B5RhRTJfTsZOME1GbkZQVHU1YWc/view?usp=sharing&usp=embed_facebook
 
 # experience
 experience:
@@ -127,20 +134,24 @@ award:
       degree: |
         WorldSkills National (Australia-wide) Competition:
         IT Networking / Systems Administration Category - WorldSkills Australia
+      url: https://drive.google.com/file/d/13szYrHyk8DWw-8UZ8lDZNRuctBQ0dmUn/view?usp=sharing
 
-    - title: "TasTAFE Special Achievement Award"
+    - title: "Student Excellence Awards:<br>Special Achievement Category"
       year: "2018"
-      degree: "TasTAFE Awards - Awarded for completing 4 years of study in 2 years whilst working full-time and running my own IT consultancy business."
+      degree: "TasTAFE Student Excellence Awards - Awarded for completing 4 years of study in 2 years whilst working full-time and running my own IT consultancy business."
+      url: https://drive.google.com/file/d/12ctctzFWfa6RI4i1SphW0FOQ6J4HeFN6/view?usp=sharing
 
     - title: "Tasmanian Gold Medal"
       year: "2017"
       degree: |
         WorldSkills Regional (Tasmania-wide) Competition:
         IT Networking / Systems Administration Category - WorldSkills Australia
+      url: https://drive.google.com/file/d/1hyK5i5-4LQICYDohXk_KRRWLWdxuI6Nj/view?usp=sharing
 
     - title: "Tasmanian Trainee of the Year - Finalist"
       year: "2017"
       degree: "Skills Tasmania"
+      url: https://drive.google.com/file/d/1z9bIBcaGHptZpWUUG_szMCc1rnzq8r7z/view?usp=sharing
 
 # Client & Work
 client_and_work:
@@ -240,7 +251,7 @@ contact:
     message: "Type Your Message Here"
   phone:
     title: "Phone Number"
-    number: "+31 640 33 88 95"
+    number: <a href="tel:+31640338895">+31 640 33 88 95</a>
   email:
     title: "Email"
     email: '<a href="mailto:liam@liamwh.com">liam@liamwh.com</a>'
