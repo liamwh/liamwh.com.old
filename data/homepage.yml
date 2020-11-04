@@ -55,8 +55,8 @@ about:
     btnText: "About Me"
     URL: "https://www.linkedin.com/in/liamwoodleighhardinge/"
   image:
-    x: "img/who-am-i/profile-picture.png"
-    _2x: "img/who-am-i/profile-picture@2x.png"
+    x: "img/who-am-i/profile-picture-circle.png"
+    _2x: "img/who-am-i/profile-picture-circle@2x.png"
 
 # education
 education:
