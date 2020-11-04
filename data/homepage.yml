@@ -8,9 +8,9 @@ showcase:
   title: "Hello, I’m Liam."
   subtitle: "DevOps Engineer"
   description: >
-    "I work at <a target='_blank' href='https://ing.com/'>ING</a>,
+    I work at <a target='_blank' href='https://ing.com/'>ING</a>,
     a global bank disrupting the financial services industry by embracing and harnessing technology.
-    I am Liam, a DevOps Engineer passionate about designing and developing streamlined, highly-automated solutions. More on me below."
+    I am Liam, a DevOps Engineer passionate about designing and developing streamlined, highly-automated solutions. More on me below.
   image:
     alt: "Showcase keyboard and mouse image"
     x: "img/showcase/showcase.png"
