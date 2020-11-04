@@ -7,7 +7,10 @@ showcase:
   enable: true
   title: "Hello, I’m Liam."
   subtitle: "DevOps Engineer"
-  description: "I work at <a target='_blank' href='https://ing.com/'>ING</a>, a global company disrupting the financial services industry by embracing and harnessing technology. And I am Liam, a DevOps Engineer passionate about designing and developing streamlined, highly-automated solutions."
+  description: >
+    "I work at <a target='_blank' href='https://ing.com/'>ING</a>,
+    a global bank disrupting the financial services industry by embracing and harnessing technology.
+    I am Liam, a DevOps Engineer passionate about designing and developing streamlined, highly-automated solutions. More on me below."
   image:
     alt: "Showcase keyboard and mouse image"
     x: "img/showcase/showcase.png"
@@ -36,10 +39,11 @@ about:
   enable: true
   title: "Who am I?"
   content: '<p class="lead">
-    I am a passionate nerd for all things technology, particularly intrigued by the infinite potential
+    I am passionate for all things technology, particularly intrigued by the infinite potential
     of code and automation.
     When not behind my computer,
-    you&#39;ll find me playing squash, climbing rocks, or cycling on a bike. I like to move!
+    you&#39;ll find me playing squash, climbing rocks, or cycling on a bike.
+    I like to move and try new things!
     </p>
     <p class="lead">
     Professionally, my areas of focus include design, automation and way-of-working.
