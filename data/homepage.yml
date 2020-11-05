@@ -30,8 +30,8 @@ showcase:
     - icon: "linkedin"
       URL: "https://www.linkedin.com/in/liamwoodleighhardinge/"
 
-    - icon: "twitter"
-      URL: "https://twitter.com/LiamWoodleigh"
+    # - icon: "twitter"
+    #   URL: "https://twitter.com/LiamWoodleigh"
 
 # about
 about:
@@ -50,10 +50,10 @@ about:
     I enjoy designing and coding as much as
     talking with users to iterate and improve the experiences that reach business goals.
     </p>'
-  button:
-    icon: "icon-smile-fill"
-    btnText: "About Me"
-    URL: "https://www.linkedin.com/in/liamwoodleighhardinge/"
+  # button:
+  #   icon: "icon-smile-fill"
+  #   btnText: "About Me"
+  #   URL: "/about/"
   image:
     x: "img/who-am-i/profile-picture-circle.png"
     _2x: "img/who-am-i/profile-picture-circle@2x.png"
@@ -65,35 +65,35 @@ education:
   items:
     # - title: "Microsoft Azure Administrator Associate"
     #   year: "2020"
-    #   degree: "Microsoft Learn"
+    #   organisation: "Microsoft Learn"
     #   url:
     # - title: "VMware Certified Professional - Data Center Virtualization 2020 (VCP-DCV 2020)"
     #   year: "2020"
-    #   degree: "VMware Learning"
+    #   organisation: "VMware Learning"
     #   url:
     - title: "Professional Scrum Master I"
       year: "2020"
-      degree: "Scrum.org"
+      organisation: "Scrum.org"
       url: https://www.scrum.org/certificates/584843
     - title: "VMware vSphere 6.7 Foundations"
       year: "2020"
-      degree: "VMware Learning"
+      organisation: "VMware Learning"
       url: https://www.youracclaim.com/badges/d268ed7c-bd20-47b6-a290-8aa796a180d7/linked_in_profile
     - title: "AWS Certified Solutions Architect - Associate"
       year: "2019"
-      degree: "AWS Training and Certification"
+      organisation: "AWS Training and Certification"
       url: https://www.youracclaim.com/badges/a227f8c9-af74-47e7-b2a4-59d9350bc253/public_url
     - title: "Diploma of Information Technology Networking"
       year: "2018"
-      degree: "TasTAFE - Tertiary Education"
+      organisation: "TasTAFE - Tertiary Education  - equated to Dutch HBO level education"
       url: https://drive.google.com/file/d/1FBMSNZrI6yxD9MZA4Sj8HtchA-b7w1WY/view?usp=sharing
     - title: "Certified Network Associate Technology Specialist Skill Set"
       year: "2017"
-      degree: "TasTAFE - Tertiary Education"
+      organisation: "TasTAFE - Tertiary Education"
       url: https://drive.google.com/file/d/1vi40xergl9AxiDGI5NJg138zGVZ4a-FJ/view?usp=sharing
     - title: "Certificates II, III & IV in Information Technology"
       year: "2015-2017"
-      degree: "TasTAFE - Tertiary Education"
+      organisation: "TasTAFE - Tertiary Education"
       url: https://drive.google.com/file/d/0B5RhRTJfTsZOME1GbkZQVHU1YWc/view?usp=sharing&usp=embed_facebook
 
 # experience
@@ -131,96 +131,81 @@ award:
   items:
     - title: "Australian Bronze Medal"
       year: "2018"
-      degree: |
+      organisation: |
         WorldSkills National (Australia-wide) Competition:
         IT Networking / Systems Administration Category - WorldSkills Australia
       url: https://drive.google.com/file/d/13szYrHyk8DWw-8UZ8lDZNRuctBQ0dmUn/view?usp=sharing
 
-    - title: "Student Excellence Awards:<br>Special Achievement Category"
+    - title: "Student Excellence Award"
       year: "2018"
-      degree: "TasTAFE Student Excellence Awards - Awarded for completing 4 years of study in 2 years whilst working full-time and running my own IT consultancy business."
+      organisation: |
+        TasTAFE - Special Achievement Category - Awarded for completing 4 years of study in 2 years whilst working full-time and running my own IT consultancy business.
       url: https://drive.google.com/file/d/12ctctzFWfa6RI4i1SphW0FOQ6J4HeFN6/view?usp=sharing
 
     - title: "Tasmanian Gold Medal"
       year: "2017"
-      degree: |
+      organisation: |
         WorldSkills Regional (Tasmania-wide) Competition:
         IT Networking / Systems Administration Category - WorldSkills Australia
       url: https://drive.google.com/file/d/1hyK5i5-4LQICYDohXk_KRRWLWdxuI6Nj/view?usp=sharing
 
     - title: "Tasmanian Trainee of the Year - Finalist"
       year: "2017"
-      degree: "Skills Tasmania"
+      organisation: "Skills Tasmania"
       url: https://drive.google.com/file/d/1z9bIBcaGHptZpWUUG_szMCc1rnzq8r7z/view?usp=sharing
 
 # Client & Work
-client_and_work:
-  title: "Clients & Works"
-  enable: false
+portfolio:
+  title: "Projects"
+  enable: true
 
-  clients:
-    - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
-
-    - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
-
-    - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Goldline"
-
-    - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Kanba"
-
-    - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
-
-    - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
+  # clients:
+  #   - logo:
+  #       x: "img/clients/asgardia.png"
+  #       _2x: "img/clients/asgardia@2x.png"
+  #     alt: "PowerShell"
+  #     url: "https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7"
 
   works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+    # - title: "VMware automation with PowerShell & PowerCLI"
+    #   description: |
+    #     I've used PowerShell extensively to automate Cloud Infrastructure. Here's how.
+    #   # button:
+    #   #   icon: "icon-arrow-right"
+    #   #   btnText: "Learn more"
+    #   #   URL: "https://liamwh.com/powershell/vmware"
+    #   image:
+    #     x: "img/works/radity-finance.jpg"
+    #     _2x: "img/works/radity-finance@2x.jpg"
+    #   is_even: true
+    - title: "Smart Home automation with Home Assistant"
+      description: >
+        <a target='_blank' href='https://www.home-assistant.io/'>Home Assistant</a> is free and open-source automation
+        software designed to be the central control system in a smart home.
+        I've used it to automate many elements of my life by integrating my home, personal, and even medical devices with various cloud services.
       button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        # icon: "icon-arrow-right"
+        icon: "icon-arrow-right" #TODO: Replace with GitHub icon
+        btnText: "See code"
+        URL: "https://github.com/liamwh/home-assistant-config"
       image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
-      is_even: true
-
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
+        x: "img/works/home-assistant-homepage.png"
+        _2x: "img/works/home-assistant-homepage.png"
       is_even: false
-
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+    - title: "Hugo-framework website delivered with CI/CD"
+      description: >
+        Continuous Integration and Continuous Delivery are essential components in sucessful software delivery.
+        This website is built using <a target='_blank' href='https://gohugo.io/'>Hugo</a>,
+        (soon to be) tested using <a target='_blank' href='https://docs.github.com/en/free-pro-team@latest/actions'>GitHub Actions</a>
+        and deployed using
+        <a target='_blank' href='https://www.netlify.com/'>Netlify</a> in accordance with these modern requirements.
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "See code"
+        URL: "https://github.com/liamwh/liamwh.com"
       image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
+        x: "img/works/iphone-simulator.png"
+        _2x: "img/works/iphone-simulator@2x.png"
       is_even: true
 
 # testimonial
@@ -257,7 +242,7 @@ contact:
     email: '<a href="mailto:liam@liamwh.com">liam@liamwh.com</a>'
   address:
     title: "Address"
-    address: "The Randstad,<br />The Netherlands"
+    address: <a target="_blank" href="https://goo.gl/maps/tuhTKQxUXe41wZrY9">The Randstad,<br />The Netherlands</a>
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"

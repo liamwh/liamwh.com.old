@@ -1,7 +1,5 @@
 baseURL = "https://liamwh.com"
 languageCode = "en-us"
-theme = "raditian-free-hugo-theme"
-
 # Plugins
 [params.plugins]
 
@@ -42,14 +40,19 @@ theme = "raditian-free-hugo-theme"
   weight = 4
 
   [[menu.header]]
+  name = "Projects"
+  URL = "#portfolio"
+  weight = 5
+
+  [[menu.header]]
   name = "Awards"
   URL = "#award"
-  weight = 5
+  weight = 6
 
   [[menu.header]]
   name = "Contact"
   URL = "#contact"
-  weight = 6
+  weight = 7
 
   # Footer
   [[menu.footer]]
@@ -68,30 +71,26 @@ theme = "raditian-free-hugo-theme"
   weight = 4
 
   [[menu.footer]]
+  name = "Projects"
+  URL = "#portfolio"
+  weight = 5
+
+  [[menu.footer]]
   name = "Awards"
   URL = "#award"
-  weight = 5
+  weight = 6
 
   [[menu.footer]]
   name = "Contact"
   URL = "#contact"
-  weight = 6
+  weight = 7
 
 
 [params]
 
-  #sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
-  sections = ["showcase", "about", "education", "experience", "award", "contact"]
+  sections = ["showcase", "about", "education", "experience", "portfolio", "award", "contact"]
 
-  googleTagManagerID = "GTM-K2F9DP5" # Google Analytics works with Google Tag Manager
+  googleTagManagerID = "GTM-K2F9DP5"
 
   [params.logo]
     text1 = "Liam."
-    #text2 = "WH"
-
-  #[params.footer]
-      #copyright = "© LiamWH. All rights reserved."
-      # [params.footer.radity_logo]
-      #   x = "img/general/design-and-code-radity.png"
-      #   _2x = "img/general/design-and-code-radity@2x.png"
-      #   alt = "Design & Code - Radity"

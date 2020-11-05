@@ -11391,7 +11391,8 @@ span a {
 p a:hover,
 span a:hover {
     color: rgba(0, 0, 0, .7);
-    text-decoration: none
+    text-decoration: none;
+    border-bottom: 1px solid #e93e34
 }
 
 .lead {
