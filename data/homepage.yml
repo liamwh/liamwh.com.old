@@ -190,7 +190,7 @@ portfolio:
         URL: "https://github.com/liamwh/home-assistant-config"
       image:
         x: "img/works/home-assistant-homepage.png"
-        _2x: "img/works/home-assistant-homepage.png"
+        _2x: "img/works/home-assistant-homepage@2x.png"
       is_even: false
     - title: "Hugo-framework website delivered with CI/CD"
       description: >
