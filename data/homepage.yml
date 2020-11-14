@@ -193,10 +193,10 @@ portfolio:
         _2x: "img/works/home-assistant-homepage@2x.png"
       is_even: false
     - title: "Hugo-framework website delivered with CI/CD"
-      description: >
+      description:
+        > #(soon to be) tested using <a target='_blank' href='https://docs.github.com/en/free-pro-team@latest/actions'>GitHub Actions</a>
         Continuous Integration and Continuous Delivery are essential components in sucessful software delivery.
-        This website is built using <a target='_blank' href='https://gohugo.io/'>Hugo</a>,
-        (soon to be) tested using <a target='_blank' href='https://docs.github.com/en/free-pro-team@latest/actions'>GitHub Actions</a>
+        This website is built using <a target='_blank' href='https://gohugo.io/'>Hugo</a>
         and deployed using
         <a target='_blank' href='https://www.netlify.com/'>Netlify</a> in accordance with these modern requirements.
       button:
